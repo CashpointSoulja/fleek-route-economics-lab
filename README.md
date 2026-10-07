@@ -2,6 +2,8 @@
 
 **Independent concept by Ayomide Ahmed. Not an official Fleek product.** Built for the Fleek "Special Projects Lead - Category Expansion" application. All data is synthetic; every rate is an editable illustrative assumption, **not a customs classification or tax/legal advice**.
 
+**Live:** https://fleek-route-economics-lab.pages.dev/ (Cloudflare Pages, no sign-in)
+
 A desktop-first, responsive calculator that compares two synthetic sourcing routes into UK buyers and decides, fail-closed, whether either route may go to a scale gate.
 
 - Cost waterfall per lot and per kept unit (goods, freight, insurance, duty, import VAT, broker/IOR, handling, last mile, payment, returns)
@@ -29,7 +31,7 @@ CHROME_PATH=<path to chrome> npm run flow   # browser flow checks
 ```
 
 ## Docs
-[PRD](docs/PRD.md) · [ELI5](docs/ELI5.md) · [5 Whys](docs/FIVE_WHYS.md) · [JTBD](docs/JTBD.md) · [Source and assumption register](docs/SOURCE_REGISTER.md) · [Viability memo](docs/VIABILITY_MEMO.md) · [Metrics](docs/METRICS.md) · [Test plan](docs/TEST_PLAN.md) · [Test results](docs/TEST_RESULTS.md) · [Evals](docs/EVALS.md) · [Limitations](docs/LIMITATIONS.md) · [Roadmap](docs/ROADMAP.md) · [Deployment](docs/DEPLOYMENT.md) · [Brand sheet](docs/BRAND.md) · [Visual guide](docs/VISUAL_GUIDE.md)
+[PRD](docs/PRD.md) · [ELI5](docs/ELI5.md) · [5 Whys](docs/FIVE_WHYS.md) · [JTBD](docs/JTBD.md) · [Source and assumption register](docs/SOURCE_REGISTER.md) · [Viability memo](docs/VIABILITY_MEMO.md) · [Metrics](docs/METRICS.md) · [Test plan](docs/TEST_PLAN.md) · [Test results](docs/TEST_RESULTS.md) · [Evals](docs/EVALS.md) · [Limitations](docs/LIMITATIONS.md) · [Roadmap](docs/ROADMAP.md) · [Deployment](docs/DEPLOYMENT.md) · [Video script](docs/VIDEO_SCRIPT.md) · [Video QA](docs/VIDEO_QA.md) · [Brand sheet](docs/BRAND.md) · [Visual guide](docs/VISUAL_GUIDE.md)
 
 ## Structure
 - `src/engine/` pure TypeScript model: validation, economics, cash timing, sensitivity, gates, scale, import/export, seed cases

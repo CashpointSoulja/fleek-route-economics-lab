@@ -89,6 +89,9 @@ dist/assets/index-XLr2g6WB.js                                  48.66 kB │ gzip
 ```
 (Montserrat font asset lines omitted.)
 
+## `npm run flow` against the live site
+`APP_URL=https://fleek-route-economics-lab.pages.dev/`: **50/50 flow checks passed** (2026-10-07, my run). Full output matched the local run below.
+
 ## `npm run flow` (against `vite preview` on port 4173)
 ```
 PASS  desktop 1366: logo top-left
