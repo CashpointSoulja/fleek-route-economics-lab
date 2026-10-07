@@ -10,7 +10,7 @@ Checks I ran on the delivered desktop-width MP4 (2026-10-07). These are my own c
 | Zoom readability | full-resolution frame at 17 s | Route B KPI cards and waterfall readable at full width; zoom targets sized to fit the frame, so no target text is clipped |
 | Captions | frames | Whole phrases, at most two lines, never cut mid-phrase |
 | Dead screens | `ffmpeg freezedetect` (noise 0.001, 2 s) | No black or blank frames. Two near-static holds were flagged where only the slow drift moves: 71.7–74.2 s (decision log) and 82.4–84.8 s (footer close) |
-| Metadata | ffprobe tags | Title only; no author, tool or path tags |
+| Metadata | ffprobe tags, `strings` | Title only; no author, tool or path tags. The encoder banner and container encoder tag were removed with a lossless stream-copy remux, so no frames changed. The compressed data still contains 74 short matches for banned-word letter patterns; these are random byte noise, not text |
 
 **No listening check.** I have not listened to the narration end to end, so pronunciation, pacing and audio quality are unverified. Only the duration and stream format are confirmed.
 
